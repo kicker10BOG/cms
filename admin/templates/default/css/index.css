@@ -1,0 +1,146 @@
+html {
+margin:				0;
+height:				100%;
+padding:			0;
+}
+
+body {
+position:			absolute;
+margin:				0;
+padding:			0;
+height:				100%;
+width:				100%;
+margin:				0;
+background:			url(../images/banners/bg.png) repeat-x 0px 100px rgb(32, 95, 196);
+font-family:		\"Times New Roman\", \"Verdana\",	\"Helvetica\", \"Arial\";
+}
+
+#container
+{
+position:			absolute;
+background:			url(../images/banners/banner-bg.png) repeat-x transparent;
+margin:				0;
+padding:			0;
+height:				100%;
+width:				100%;
+min-width:			800px;
+}
+
+#container2
+{
+position:			absolute;
+margin:				0;
+padding:			0;
+background:			#FFFFFF;
+min-height:			100%;
+left:				5%;
+width:				90%;
+}
+
+#banner
+{
+position:			relative;
+background:			url(../images/banners/banner-bg.png) repeat-x rgb(32, 95, 196);
+width:				100%;
+margin-left:		0;
+padding-left:		0;
+text-align:			left;
+height:				100px;
+}
+
+#banner img, #banner a
+{
+border:				0;
+margin:				0;
+padding:			0;
+}
+
+#mainsection
+{
+position:			relative;
+background:			#FFFFFF;
+color:				#000000;
+}
+
+#maincontent
+{
+position:			relative;
+display:			block;
+padding-left:		15px;
+padding-right:		15px;
+padding-top:		5px;
+padding-bottom:		5px;
+top:				0;
+bottom:				50px;
+background:			#FFFFFF;
+color:				#000000;
+}
+
+#footspacer
+{
+position:			relative;
+width:				100%;
+height:				45px;
+line-height:		45px;
+text-align:			center;
+vertical-align:		middle;
+font-size:			15px;
+color:				#FFFFFF;
+padding-top:		5px;
+clear:				both;
+}
+#foot
+{
+position:			absolute;
+bottom:				0;
+width:				100%;
+height:				45px;
+line-height:		45px;
+background:			url(../images/menu/tmenu.png) repeat center transparent;
+text-align:			center;
+vertical-align:		middle;
+font-size:			15px;
+color:				#FFFFFF;
+padding-top:		5px;
+clear:				both;
+}
+
+#foot a
+{
+font-size:			15px;
+color:				#FFFFFF;
+}
+
+.cent
+{
+text-align:			center;
+vertical-align:		middle;
+}
+
+marquee
+{
+font-size:			25px;
+width:				100%;
+}
+
+hr
+{
+height:				5px;
+width:				80%;
+}
+
+.float-left
+{
+float:			left;
+margin-right:	10px;
+margin-top:		5px;
+margin-bottom:	5px;
+}
+
+.float-right
+{
+float:			right;
+margin-left:	10px;
+margin-top:		5px;
+margin-bottom:	5px;
+}
